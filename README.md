@@ -5,7 +5,7 @@ Users can enter their details, generate a QR code instantly, and download it wit
 
 ## 🌐 *Live Demo:* 
 
-
+https://shivanipatel013.github.io/QR-Generator/
 
 ---
 
