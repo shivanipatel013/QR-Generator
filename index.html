@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- QR CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>QR Code Generator</h1>
+    <p>Enter details and generate your QR code</p>
+
+    <input type="text" id="name" placeholder="Enter your name">
+    <input type="email" id="email" placeholder="Enter your email">
+    <input type="number" id="phone" placeholder="Enter your phone number">
+
+    <button id="generateBtn">
+        <i class="fa-solid fa-qrcode"></i> Generate QR
+    </button>
+
+    <div class="loader" id="loader"></div>
+
+    <div id="qrBox"></div>
+
+    <!-- Download Button -->
+    <button id="downloadBtn" class="download-btn">
+        <i class="fa-solid fa-download"></i> Download QR
+    </button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
