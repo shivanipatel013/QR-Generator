@@ -70,8 +70,8 @@ QR-Code-Generator/ │ ├── index.html ├── style.css ├── script
 *Shivani Patel*  
 Frontend Developer (Student)
 
-  
-💼 LinkedIn: https://www.linkedin.com/in/shivani-patel-b20330299
+- 🔗 LinkedIn: https://www.linkedin.com/in/shivani-patel-b20330299  
+- 📧 Email: shibupatel013@gmail.com  
 
 ---
 
